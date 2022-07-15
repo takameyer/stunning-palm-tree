@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "ExpoMyAwesomeTSRealmApp2",
+    "slug": "ExpoMyAwesomeTSRealmApp2",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

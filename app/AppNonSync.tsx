@@ -9,6 +9,9 @@ const {useQuery} = TaskRealmContext;
 export const AppNonSync = () => {
   const result = useQuery(Task);
 
+  console.log("JSON results: ", result.toJSON())
+
+
   const tasks = useMemo(() => result.sorted('createdAt'), [result]);
 
   return <TaskManager tasks={tasks} />;

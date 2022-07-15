@@ -5,6 +5,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.andrewmeyermongodb.ExpoMyAwesomeTSRealmApp2"
+    },
+    "ios": {
+      "bundleIdentifier": "com.andrewmeyermongodb.ExpoMyAwesomeTSRealmApp2"
+    }
   }
 }
